@@ -1,0 +1,714 @@
+!SESSION 2019-10-18 14:08:06.595 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\gijsh\Documents\school\2019-2020\sql\workspace
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:13.433
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:13.433
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: OLD)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:13.433
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: OLD)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: OLD)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:32.856
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:32.856
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:32.856
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:34.774
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:34.774
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:15:34.774
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: LAST)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:01.089
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:01.089
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:01.089
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:19.899
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:19.899
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:16:19.899
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: DATE.last)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:18:35.063
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:18:35.063
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: MAX)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:18:35.063
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: MAX)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: MAX)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-18 14:22:26.963
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-18 14:22:26.963
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: MAXVALUE)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-18 14:22:26.963
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: MAXVALUE)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: MAXVALUE)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:463)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:394)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:764)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2928)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:148)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3427)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-11-08 11:47:05.674 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\gijsh\Documents\school\2019-2020\sql\workspace
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:52:19.352
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:52:19.352
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such table: Track.GenreId)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:52:19.352
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such table: Track.GenreId)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Track.GenreId)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:53:44.746
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:53:44.746
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such table: Genre.GenreId)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:53:44.746
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such table: Genre.GenreId)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Genre.GenreId)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:27.383
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:27.383
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:27.383
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:32.259
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:32.259
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:55:32.260
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:00.689
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:00.689
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:00.689
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:10.527
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:10.527
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:10.527
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:17.747
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:17.747
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:17.747
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (ambiguous column name: GenreId)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:52.301
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:52.301
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 11:56:52.301
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Genre)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:46.916
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:46.916
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such table: Artist.Name)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:46.916
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such table: Artist.Name)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Artist.Name)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:54.570
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:54.570
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 12:04:54.570
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 12:08:24.279
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 12:08:24.279
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 12:08:24.279
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 12:53:29.908
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 12:53:29.908
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 12:53:29.908
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: artist.Name)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-08 12:56:12.470
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-08 12:56:12.470
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (near "=": syntax error)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-08 12:56:12.470
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (near "=": syntax error)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "=": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-11-15 13:53:43.319 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\gijsh\Documents\school\2019-2020\sql\workspace
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-15 14:16:52.424
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-15 14:16:52.424
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-15 14:16:52.424
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-15 14:17:15.130
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-15 14:17:15.130
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-15 14:17:15.130
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-11-22 11:38:40.221 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\gijsh\Documents\school\2019-2020\sql\workspace
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-11-22 11:39:06.469
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-11-22 11:39:06.469
+!MESSAGE SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-11-22 11:39:06.469
+!MESSAGE [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+!STACK 0
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

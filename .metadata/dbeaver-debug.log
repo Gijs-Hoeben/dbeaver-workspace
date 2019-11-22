@@ -1,0 +1,99 @@
+2019-11-22 11:38:41.894 - DBeaver 6.2.4.201911031605 is starting
+2019-11-22 11:38:41.897 - OS: Windows 10 10.0 (amd64)
+2019-11-22 11:38:41.899 - Java version: 11.0.5 by AdoptOpenJDK (64bit)
+2019-11-22 11:38:41.902 - Install path: 'file:/C:/Program Files/DBeaver/'
+2019-11-22 11:38:41.905 - Instance path: 'file:/C:/Users/gijsh/Documents/school/2019-2020/sql/workspace/'
+2019-11-22 11:38:41.909 - Memory available 64Mb/1024Mb
+2019-11-22 11:38:42.013 - > Start Core File Systems [org.eclipse.core.filesystem 1.7.400.v20190518-1151]
+2019-11-22 11:38:42.061 - > Start Core Resource Management [org.eclipse.core.resources 3.13.400.v20190505-1655]
+2019-11-22 11:38:42.078 - Starting RMI server at 35735
+2019-11-22 11:38:42.144 - Run workbench
+2019-11-22 11:38:42.159 - > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.14.600.v20190513-2118]
+2019-11-22 11:38:42.165 - > Start Eclipse Application Services [org.eclipse.e4.core.services 2.1.400.v20181215-2145]
+2019-11-22 11:38:42.174 - > Start Eclipse Contexts [org.eclipse.e4.core.contexts 1.8.100.v20190518-1217]
+2019-11-22 11:38:42.188 - > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.3.500.v20190513-2118]
+2019-11-22 11:38:42.226 - > Start Eclipse UI Dependency Injection [org.eclipse.e4.ui.di 1.2.600.v20190510-1100]
+2019-11-22 11:38:42.281 - > Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+2019-11-22 11:38:42.287 - > Start EMF Common [org.eclipse.emf.common 2.16.0.v20190528-0845]
+2019-11-22 11:38:42.310 - > Start EMF Ecore [org.eclipse.emf.ecore 2.18.0.v20190528-0845]
+2019-11-22 11:38:42.371 - > Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+2019-11-22 11:38:42.645 - > Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.3.500.v20190513-2118]
+2019-11-22 11:38:42.669 - > Start Expression Language [org.eclipse.core.expressions 3.6.400.v20190518-1240]
+2019-11-22 11:38:42.700 - > Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.14.700.v20190517-1525]
+2019-11-22 11:38:42.815 - > Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.12.500.v20190510-1100]
+2019-11-22 11:38:42.878 - > Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.15.300.v20190213-1308]
+2019-11-22 11:38:43.206 - > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.13.500.v20190513-2118]
+2019-11-22 11:38:43.274 - > Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.12.300.v20190510-1100]
+2019-11-22 11:38:43.334 - > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.35.201911031605]
+2019-11-22 11:38:43.706 - Initializing DBeaver 6.2.4
+2019-11-22 11:38:43.710 - Host plugin: org.jkiss.dbeaver.core.application 6.2.4.201911031605
+2019-11-22 11:38:43.713 - Initialize Core...
+2019-11-22 11:38:43.718 - Can't find BC security provider. Use default JCE.
+2019-11-22 11:38:43.721 - BouncyCastle not registered, using the default JCE provider
+2019-11-22 11:38:43.874 - Initialize base platform...
+2019-11-22 11:38:43.889 - > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.20.201911031605]
+2019-11-22 11:38:43.926 - > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.200.v20190516-1504]
+2019-11-22 11:38:43.958 - > Start Internet Connection Management UI [org.eclipse.ui.net 1.3.400.v20190519-2354]
+2019-11-22 11:38:43.966 - > Start Internet Connection Management [org.eclipse.core.net 1.3.500.v20190519-2354]
+2019-11-22 11:38:43.972 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2019-11-22 11:38:43.979 - Core initialized (266ms)
+2019-11-22 11:38:43.982 - Configure workbench window
+2019-11-22 11:38:43.996 - > Start Help System Core [org.eclipse.help 3.8.400.v20190423-0921]
+2019-11-22 11:38:45.133 - Create actions
+2019-11-22 11:38:45.136 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2019-11-22 11:38:45.143 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2019-11-22 11:38:45.329 - > Start Default Text Editor [org.eclipse.ui.editors 3.11.500.v20190519-2344]
+2019-11-22 11:38:45.340 - > Start File Buffers [org.eclipse.core.filebuffers 3.6.600.v20190519-2344]
+2019-11-22 11:38:45.939 - > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.12.0.v20190519-2344]
+2019-11-22 11:38:45.970 - Initialize workbench window
+2019-11-22 11:38:45.983 - Finish initialization
+2019-11-22 11:38:46.028 - > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.20.201911031605]
+2019-11-22 11:38:46.039 - > Start DBeaver ER Diagram [org.jkiss.dbeaver.ext.erd 2.0.122.201911031605]
+2019-11-22 11:38:46.241 - Total database drivers: 81 (81)
+2019-11-22 11:38:46.675 - > Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.20.201911031605]
+2019-11-22 11:38:46.810 - > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.10.201911031605]
+2019-11-22 11:38:46.920 - > Start Team Support Core [org.eclipse.team.core 3.8.600.v20190519-2354]
+2019-11-22 11:38:47.324 - > Start Core Compare Support [org.eclipse.compare.core 3.6.500.v20190519-2354]
+2019-11-22 11:38:47.455 - > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.20.201911031605]
+2019-11-22 11:38:48.614 - > Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.6.0.v20190215-2242]
+2019-11-22 11:38:48.627 - > Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.5.400.v20190408-2008]
+2019-11-22 11:38:48.640 - > Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.6.300.v20190318-1320]
+2019-11-22 11:38:48.675 - > Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.4.400.v20190409-0548]
+2019-11-22 11:38:48.690 - > Start Equinox Provisioning Platform Automatic Update Support [org.eclipse.equinox.p2.ui.sdk.scheduler 1.4.200.v20181102-0649]
+2019-11-22 11:38:48.700 - > Start Equinox Provisioning Update Checker [org.eclipse.equinox.p2.updatechecker 1.2.100.v20180827-1122]
+2019-11-22 11:38:48.716 - > Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.3.100.v20180822-1302]
+2019-11-22 11:38:48.724 - > Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.4.400.v20190318-1320]
+2019-11-22 11:38:48.858 - > Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.5.500.v20190220-1158]
+2019-11-22 11:38:48.952 - > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.57.201911031605]
+2019-11-22 11:38:48.958 - > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.26.201911031605]
+2019-11-22 11:38:49.137 - Connect with 'SQLite - positioningsystems.db' (sqlite_jdbc-16e6f21580e-6b26e576584bd805)
+2019-11-22 11:38:49.143 - > Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.106.201911031605]
+2019-11-22 11:38:49.168 - > Start DBeaver SQLite Support [org.jkiss.dbeaver.ext.sqlite 1.0.69.201911031605]
+2019-11-22 11:38:49.361 - Connected (sqlite_jdbc-16e6f21580e-6b26e576584bd805, SQLite JDBC [3.28.0])
+2019-11-22 11:38:51.599 - Open [https://dbeaver.io/product/version.xml]
+2019-11-22 11:39:06.422 - Error executing query
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1]: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:480)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:419)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:411)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:781)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2852)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:99)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:152)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:97)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3431)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Navigationsystem already exists)
+	at org.sqlite.core.DB.newSQLException(DB.java:941)
+	at org.sqlite.core.DB.newSQLException(DB.java:953)
+	at org.sqlite.core.DB.throwex(DB.java:918)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.jdbc3.JDBC3Statement.execute(JDBC3Statement.java:52)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more

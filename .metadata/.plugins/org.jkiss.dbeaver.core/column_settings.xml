@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="Name" visible="true" order="0" width="260"/>
+		<column name="Description" visible="true" order="1" width="90"/>
+		<column name="Driver Type" visible="true" order="2" width="90"/>
+	</item>
+	<item id="NodeList/GenericTable">
+		<column name="Table Name" visible="true" order="0" width="100"/>
+		<column name="Table Type" visible="true" order="1" width="100"/>
+		<column name="Table Description" visible="true" order="2" width="131"/>
+	</item>
+	<item id="NodeList/SQLiteTable">
+		<column name="Table Name" visible="true" order="0" width="107"/>
+		<column name="Table Type" visible="true" order="1" width="87"/>
+		<column name="Table Description" visible="true" order="2" width="131"/>
+	</item>
+	<item id="NodeList/SQLiteTableColumn">
+		<column name="Column Name" visible="true" order="0" width="109"/>
+		<column name="#" visible="true" order="1" width="33"/>
+		<column name="Data Type" visible="true" order="2" width="92"/>
+		<column name="Length" visible="true" order="3" width="59"/>
+		<column name="Not Null" visible="true" order="4" width="70"/>
+		<column name="Auto Increment" visible="true" order="5" width="116"/>
+		<column name="Default" visible="true" order="6" width="63"/>
+		<column name="Description" visible="true" order="7" width="90"/>
+	</item>
+	<item id="projectExplorer">
+		<column name="Name" visible="true" order="0" width="248"/>
+		<column name="DataSource" visible="true" order="1" width="170"/>
+	</item>
+</items>

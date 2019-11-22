@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="wmi"/>
+	<provider id="athena"/>
+	<provider id="db2"/>
+	<provider id="db2_zos"/>
+	<provider id="db2_i"/>
+	<provider id="elasticsearch"/>
+	<provider id="exasol"/>
+	<provider id="jaybird"/>
+	<provider id="generic">
+		<driver id="sqlite_jdbc" categories="sql,embedded" custom="false" embedded="true" name="SQLite" class="org.sqlite.JDBC" url="jdbc:sqlite:{file}" description="SQLite JDBC driver by Taro L. Saito (extension of Zentus driver)">
+			<library type="jar" path="maven:/org.xerial:sqlite-jdbc:RELEASE" custom="false">
+				<file id="org.xerial:sqlite-jdbc" version="3.28.0" path="${home}\Documents\school\2019-2020\sql\drivers\maven\maven-central\org.xerial\sqlite-jdbc-3.28.0.jar"/>
+			</library>
+		</driver>
+	</provider>
+	<provider id="bigquery"/>
+	<provider id="google_spanner"/>
+	<provider id="greenplum"/>
+	<provider id="h2gis"/>
+	<provider id="hana"/>
+	<provider id="kognitio"/>
+	<provider id="sqlserver"/>
+	<provider id="mssql"/>
+	<provider id="mysql"/>
+	<provider id="open-distro-elasticsearch"/>
+	<provider id="oracle"/>
+	<provider id="postgresql"/>
+	<provider id="snowflake"/>
+	<provider id="vertica"/>
+</drivers>
