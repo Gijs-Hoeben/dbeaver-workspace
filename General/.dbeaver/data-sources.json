@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"dbeaver-sample-database-sqlite-1": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "DBeaver Sample Database (SQLite)",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\gijsh\\Documents\\school\\2019-2020\\sql\\workspace\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"url": "jdbc:sqlite:C:\\Users\\gijsh\\Documents\\school\\2019-2020\\sql\\workspace\\.metadata\\sample-database-sqlite-1\\Chinook.db",
+				"type": "dev"
+			}
+		},
+		"sqlite_jdbc-16e6f21580e-6b26e576584bd805": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "SQLite - positioningsystems.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\gijsh\\Documents\\school\\2019-2020\\sql\\sqlite-tools-win32-x86-3300100\\positioningsystems.db",
+				"url": "jdbc:sqlite:C:\\Users\\gijsh\\Documents\\school\\2019-2020\\sql\\sqlite-tools-win32-x86-3300100\\positioningsystems.db",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
